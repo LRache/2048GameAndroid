@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:paddingStart="30px"
+    android:paddingTop="10dp"
+    android:paddingEnd="30px"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainRelativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/undoCountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/undoButton"
+            android:layout_centerHorizontal="true"
+            android:text="@string/undo_count_string" />
+
+        <TextView
+            android:id="@+id/gameTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_string"
+            android:textColor="@color/text_color_2"
+            android:textSize="60sp" />
+
+        <LinearLayout
+            android:id="@+id/scoreViewLayout"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scoreTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="30dp"
+                android:text="@string/score_text"
+                android:textAlignment="center"
+                android:textColor="@color/score_label_text_color"
+                android:textSize="16sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="100dp"
+                android:minHeight="40dp"
+                android:text="@string/text0"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/saveViewLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/scoreViewLayout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/saveNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center"
+                android:text="@string/new_game_string"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/newGameButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:minHeight="36dip"
+                android:text="@string/new_game_string"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/happyBirthdayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/toDLYButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/happyBirthday_string"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/toDLYButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_bg"
+            android:text="@string/to_you_string"
+            android:textColor="@color/white" />
+
+        <view
+            android:id="@+id/gameArea"
+            class="com.rache.game2048.GameArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/gameTitleTextView"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/undoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_bg"
+            android:text="@string/undo_string"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

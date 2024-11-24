@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/scoreListMenuItem"
+        android:title="@string/score_list_string" />
+    <item
+        android:id="@+id/openMenuItem"
+        android:title="@string/open_text" />
+    <item
+        android:id="@+id/saveMenuItem"
+        android:title="@string/save_text" />
+    <item
+        android:id="@+id/renameSaveMenuItem"
+        android:title="@string/rename_save_string" />
+    <item
+        android:id="@+id/deleteSaveMenuItem"
+        android:title="@string/delete_save_string" />
+    <item
+        android:id="@+id/aboutMenuItem"
+        android:title="@string/about_string" />
+</menu>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Game2048</string>
+
+    <!--Button-->
+    <string name="new_game_string">新游戏</string>
+    <string name="undo_string">撤销</string>
+
+    <!--TextView-->
+    <string name="title_string">2048</string>
+    <string name="score_text">分数</string>
+    <string name="text0">0</string>
+
+    <!--dialog-->
+    <string name="ok_string">确定</string>
+    <string name="cancel_string">取消</string>
+    <string name="input_name_text">输入存档名称</string>
+    <string name="ask_save_text">是否要保存当前存档？</string>
+    <string name="not_save_string">不保存</string>
+    <string name="do_save_string">保存</string>
+
+    <!--Menu-->
+    <string name="delete_save_string">删除存档</string>
+    <string name="rename_save_string">重命名存档</string>
+    <string name="about_string">关于</string>
+    <string name="undo_count_string">撤销次数：%d</string>
+    <string name="score_list_string">分数排行榜</string>
+    <string name="open_text">加载存档</string>
+    <string name="save_text">保存存档</string>
+
+    <!--ScoreList-->
+    <string name="score_list_item_score_text">%d分</string>
+    <string name="score_list_item_undo_text">撤销%d次</string>
+
+    <!--SelectSave-->
+    <string name="select_save_text">选择存档</string>
+
+    <!--Toast-->
+    <string name="rename_failed_not_select_text">重命名失败，未选择存档。</string>
+    <string name="rename_failed_text">重命名失败。</string>
+    <string name="rename_successfully_text">重命名成功。</string>
+    <string name="cannot_undo_text">无法撤销。</string>
+    <string name="ensure_delete_save_text">你确定要删除这个存档吗？</string>
+    <string name="delete_failed_not_select_text">删除失败，未选择存档。</string>
+    <string name="delete_failed_text">删除失败。</string>
+    <string name="delete_successfully_text">删除成功。</string>
+    <string name="load_save_successfully_text">成功加载存档：</string>
+    <string name="load_save_failed_text">加载存档失败。</string>
+    <string name="load_error_0_text">加载失败。0x00</string>
+    <string name="load_error_1_text">加载失败。0x01</string>
+    <string name="load_error_2_text">加载失败。0x02</string>
+    <string name="create_dir_successfully">创建目录成功。</string>
+    <string name="create_dir_failed">创建目录失败。</string>
+    <string name="input_new_save_name_text">输入存档的新名称</string>
+    <string name="save_name_cannot_be_empty_text">存档名称不能为空。</string>
+    <string name="save_successfully_text">保存存档成功。</string>
+    <string name="save_failed_text">保存存档失败。</string>
+
+    <!--GameArea-->
+    <string name="string_2" translatable="false">2</string>
+    <string name="string_4" translatable="false">4</string>
+    <string name="string_8" translatable="false">8</string>
+    <string name="string_16" translatable="false">16</string>
+    <string name="string_32" translatable="false">32</string>
+    <string name="string_64" translatable="false">64</string>
+    <string name="string_128" translatable="false">128</string>
+    <string name="string_256" translatable="false">256</string>
+    <string name="string_512" translatable="false">512</string>
+    <string name="string_1024" translatable="false">1024</string>
+    <string name="string_2048" translatable="false">2048</string>
+    <string name="string_4096" translatable="false">4096</string>
+    <string name="string_8192" translatable="false">8192</string>
+    <string name="string_16384" translatable="false">16384</string>
+    <string name="string_32768" translatable="false">32768</string>
+    <string name="string_65536" translatable="false">65536</string>
+    <string name="string_131072" translatable="false">131072</string>
+    <string name="string_undefined" translatable="false">UNDEFINED</string>
+
+    <!-- About-->
+    <string name="game_name">2048Game</string>
+    <string name="author_name">自由</string>
+    <string name="version_name">2月4日特供版 FebFourVersion Base1.1</string>
+
+    <!--FebFour Version-->
+    <string name="happyBirthday_string">生日快乐！</string>
+    <string name="to_you_string">（贺卡？）</string>
+    <string name="ff_string_2">祝</string>
+    <string name="ff_string_4">董</string>
+    <string name="ff_string_8">泡</string>
+    <string name="ff_string_16">1</string>
+    <string name="ff_string_32">7</string>
+    <string name="ff_string_64">岁</string>
+    <string name="ff_string_128">生</string>
+    <string name="ff_string_256">日</string>
+    <string name="ff_string_512">快</string>
+    <string name="ff_string_1024">乐</string>
+    <string name="ff_string_2048">——自由</string>
+
+    <string name="ff_toDLY_string">To董洛妍</string>
+    <string name="ff_birthdaySong_string">播放\n生日快乐歌</string>
+    <string name="ff_birthday_string">220204</string>
+
+    <string name="ff_sentence_name_text">亲爱的董洛妍( ~\(≧▽≦)/~：</string>
+    <string name="ff_sentence_text_0">时间过得好快a</string>
+    <string name="ff_sentence_text_1">我们认识1年半了，你也17岁了</string>
+    <string name="ff_sentence_text_2">今年没办法送贺卡了</string>
+    <string name="ff_sentence_text_3">自由就这样祝泡泡生日快乐啦</string>
+    <string name="ff_sentence_text_4">感谢过去一年中的陪伴和包容理解</string>
+    <string name="ff_sentence_text_5">也许过去的一年里有很多的不顺心</string>
+    <string name="ff_sentence_text_6">但它们终会成为过去</string>
+    <string name="ff_sentence_text_7">我觉得你是个很好的女生</string>
+    <string name="ff_sentence_text_8">你很开朗，歌唱得也很棒</string>
+    <string name="ff_sentence_text_9">（不知道你有没有试过百度自己）</string>
+    <string name="ff_sentence_text_10">要对自己多点自信呀</string>
+    <string name="ff_sentence_text_11">新的一岁里也要加油</string>
+    <string name="ff_sentence_text_12">祝你在新的一岁中越过越好，能收获更多</string>
+    <string name="ff_sentence_text_13">From 自由</string>
+</resources>

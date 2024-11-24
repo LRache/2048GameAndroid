@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="activity_bg">#FAF8EF</color>
+    <color name="button_bg">#8f7a66</color>
+    <color name="score_label_text_color">#eee4da</color>
+    <color name="game_area_bg">#bbada0</color>
+
+    <color name="text_color_2">#776E65</color>
+
+    <color name="cell_bg_color_empty">#CDC1B4</color>
+    <color name="cell_bg_color_2">#EEE4DA</color>
+    <color name="cell_bg_color_4">#EDE0C8</color>
+    <color name="cell_bg_color_8">#F2B179</color>
+    <color name="cell_bg_color_16">#F59563</color>
+    <color name="cell_bg_color_32">#F67C5F</color>
+    <color name="cell_bg_color_64">#F65E3B</color>
+    <color name="cell_bg_color_128">#EDCF72</color>
+    <color name="cell_bg_color_256">#EDCC61</color>
+    <color name="cell_bg_color_512">#EDC850</color>
+    <color name="cell_bg_color_1024">#EDC53F</color>
+    <color name="cell_bg_color_2048">#EDC42D</color>
+    <color name="cell_bg_color_other">#3A3A3A</color>
+
+    <color name="cell_text_color_2_4">#776E65</color>
+    <color name="cell_text_color_other">#F9F6F2</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
